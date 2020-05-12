@@ -6,7 +6,7 @@ Detection arrhythmia from cardiac signals is important in preventing heart disea
 
 ![image](https://user-images.githubusercontent.com/38157496/78994846-0186e400-7b7c-11ea-88f7-496f6e3d389a.png)
 
-![image](https://user-images.githubusercontent.com/38157496/78994797-e4521580-7b7b-11ea-95a9-90d94354ecd3.png)
+![image](https://user-images.githubusercontent.com/38157496/80246365-3f6d2780-86a7-11ea-941f-da4b75e9eb3c.png)
 
 ## Hyperparameter optimization and feature selection
 
