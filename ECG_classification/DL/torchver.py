@@ -3,42 +3,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 import scipy
-# x = pd.read_csv(r"C:\Users\3ttook\Documents\Source\Python\ERC\ECG-classification\src\feature_save\feature_s\OUR\DS1.csv")
-# y = pd.read_csv(r"C:\Users\3ttook\Documents\Source\Python\ERC\ECG-classification\src\feature_save\feature_s\OUR\DS2.csv")
-#
-# np.random.shuffle(x.values)
-# np.random.shuffle(y.values)
-#
-# x_train = x.values[:,:1272]
-# x_test = x[:, 1272]
 
 import time
 
 start = time.time()  # 시작 시간 저장
 
-# ml channel
-x_train = pd.read_csv('../arrhythmia/ds1_ml.csv')
-x_test = pd.read_csv('../arrhythmia/ds2_ml.csv')
 
 x_train = np.array(x_train)
 x_test = np.array(x_test)
-
-# scipy.io.savemat(r'C:\Users\3ttook\Documents\Source\Python\ERC\ECG-classification\REAL-T~1\data\1.mat', {'x_train' : x_train})
-
-
-# x_train_st = []
-# for i in range(len(x_train)-1):
-#     data = np.hstack((x_train[i], x_train[i+1]))
-#     x_train_st.append(data)
-
-# x_train_st = np.array(x_train_st)
-
-# x_test_st = []
-# for i in range(len(x_test)-1):
-#     data = np.hstack((x_test[i], x_test[i+1]))
-#     x_test_st.append(data)
-
-# x_test_st = np.array(x_test_st)
 
 
 x_train_st = []
@@ -55,25 +27,9 @@ for i in range(len(x_test) - 2):
 
 x_test_st = np.array(x_test_st)
 
-# # # # v channel
-# # # # t_ds1 = pd.read_csv(r'C:\Users\3ttook\Documents\Source\Python\ERC\ECG-classification\src\feature_save\signal\170\ds1_v.csv')
-# # # # t_ds2 = pd.read_csv(r'C:\Users\3ttook\Documents\Source\Python\ERC\ECG-classification\src\feature_save\signal\170\ds2_v.csv')
-
-# # # # x_train = np.dstack((o_ds1, t_ds1))
-# # # # x_test = np.dstack((o_ds2, t_ds2))
-
 x_train = x_train_st[:, :, np.newaxis]
 x_test = x_test_st[:, :, np.newaxis]
 #
-
-# x_train = np.expand_dims(x_train, axis=2)
-# x_test = np.expand_dims(x_test, axis=2)
-
-
-# # # # label
-y_train = pd.read_csv('../arrhythmia/ds1_onehot.csv')
-y_test = pd.read_csv('../arrhythmia//ds2_onehot.csv')
-
 y_train = np.array(y_train)
 y_test = np.array(y_test)
 
@@ -91,21 +47,6 @@ for i in range(len(y_test) - 2):
 
 y_test_st = np.array(y_test_st)
 
-# # y_train_st = []
-# # for i in range(len(y_train)):
-# #     data = np.hstack((y_train[i]))
-# #     y_train_st.append(data)
-
-# # y_train_st = np.array(y_train_st)
-
-# # y_test_st = []
-# # for i in range(len(y_test)):
-# #     data = np.hstack((y_test[i]))
-# #     y_test_st.append(data)
-
-# # y_test_st = np.array(y_test_st)
-
-
 for i in range(len(y_test_st)):
     if sum(y_test_st[i]) == 0:
         y_test_st[i] = [0]
@@ -121,12 +62,6 @@ for i in range(len(y_train_st)):
 y_train = y_train_st[0:len(y_train_st), 0:1]
 y_test = y_test_st[0:len(y_test_st), 0:1]
 
-# from sklearn.preprocessing import OneHotEncoder
-
-# onehot_encoder = OneHotEncoder()
-
-# y_train = onehot_encoder.fit_transform(y_train).toarray()
-# y_test = onehot_encoder.fit_transform(y_test).toarray()
 
 import torch
 import torch.nn as nn
