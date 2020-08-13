@@ -32,4 +32,4 @@ Feature selection is important for model design. we research costly feature sele
 
 ## Notice
 
-This repository is only just shown what the author is doing. Therefore, the code is provided as a snippet, and the core research data and full code is not disclosed.
+This repository is only just shown what the author is doing. Therefore, the code is provided as a snippet, and the core research data and full code is not disclosed. Full code can provide to lab members.
