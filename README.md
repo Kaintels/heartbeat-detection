@@ -28,7 +28,8 @@ Feature selection is important for model design. we research costly feature sele
 
 [3] S. Baek, S. Han, J. Lee, W. Lee, C Park, "Arrhythmia Classification Using 1D-2D Conversion", uhealthcare 2019, 2019
 
-[4] S. Han, W. Lee, H. Eom, J. Kim and C. Park, “Detection of Arrhythmia using 1D Convolution Neural Network with LSTM model”, IEIE SPC (accepted), 2020
+[4] S. Han, W. Lee, H. Eom, J. Kim and C. Park, “Detection of Arrhythmia using 1D Convolution Neural Network with LSTM model”, IEIE Transactions on Smart Processing and Computing, Vol.9 No.04, 2020
+
 
 ## Notice
 
