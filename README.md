@@ -29,13 +29,13 @@ Feature selection is important for model design. we research costly feature sele
 
 ## Our research paper
 
-[1] 한승우, 엄희상, 박철수, "End-to-End 딥러닝 기반 부정맥 분류 연구", 대한의용생체공학회 추계학술대회, 2019
+[1] **한승우**, 엄희상, 박철수, "End-to-End 딥러닝 기반 부정맥 분류 연구", 대한의용생체공학회 추계학술대회, 2019
 
-[2] 한승우, ""머신러닝 기반 부정맥 분류 시스템", 저작권등록, 2019
+[2] **한승우**, ""머신러닝 기반 부정맥 분류 시스템", 저작권등록, 2019
 
-[3] S. Baek, S. Han, J. Lee, W. Lee, C Park, "Arrhythmia Classification Using 1D-2D Conversion", uhealthcare 2019, 2019
+[3] S. Baek, **S. Han**, J. Lee, W. Lee, C Park, "Arrhythmia Classification Using 1D-2D Conversion", uhealthcare 2019, 2019
 
-[4] S. Han, W. Lee, H. Eom, J. Kim and C. Park, “Detection of Arrhythmia using 1D Convolution Neural Network with LSTM model”, IEIE Transactions on Smart Processing and Computing, Vol.9 No.04, 2020
+[4] **S. Han**, W. Lee, H. Eom, J. Kim and C. Park, “Detection of Arrhythmia using 1D Convolution Neural Network with LSTM model”, IEIE Transactions on Smart Processing and Computing, Vol.9 No.04, 2020
 
 
 ## Notice
