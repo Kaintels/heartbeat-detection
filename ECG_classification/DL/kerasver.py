@@ -5,7 +5,9 @@ import math
 import scipy
 
 import tensorflow as tf
-
+import os
+import numpy as np
+import random
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Bidirectional
 from tensorflow.keras.layers import Flatten, Dropout
@@ -16,6 +18,17 @@ from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import BatchNormalization
 
 from tensorflow.keras.utils import to_categorical
+
+seed = something
+
+# Reproducibility
+os.environ['PYTHONHASHSEED'] = str(seed)
+random.seed(seed)
+tf.random.set_seed(seed)
+np.random.seed(seed)
+os.environ['TF_DETERMINISTIC_OPS'] = '1'
+os.environ['TF_CUDNN_DETERMINISTIC'] = '1'
+
 
 y_tests = to_categorical(y_test, 2)
 y_trains = to_categorical(y_train, 2)
