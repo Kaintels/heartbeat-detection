@@ -1,4 +1,4 @@
-# Heartbeat detection using deep learning and optimization
+# Heartbeat detection model based on deep learning and optimization
 
 ## Heatbeat detection
 
