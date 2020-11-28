@@ -35,6 +35,8 @@ Feature selection is important for model design. we research costly feature sele
 
 [4] **S. Han**, W. Lee, H. Eom, J. Kim and C. Park, “Detection of Arrhythmia using 1D Convolution Neural Network with LSTM model”, IEIE Transactions on Smart Processing and Computing, Vol.9 No.04, 2020
 
+[5] **S. Han**, H. Eom, J. Kim, C. Park, “Optimal DNN architecture search using Bayesian Optimization Hyperband for arrhythmia detection”, The 2020 IEEE MTT-S Wireless Power Transfer Conference, 2020
+
 
 ## Notice
 
