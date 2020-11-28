@@ -21,6 +21,9 @@ Feature selection is important for model design. we research costly feature sele
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/38157496/95651489-be56ff00-0b25-11eb-85c5-26036b03976d.gif)
 
+**New**
+
+![final](https://user-images.githubusercontent.com/38157496/100496273-042f5b80-3196-11eb-951c-d4a40692a7d4.png)
 
 
 ## Good thing to see together
