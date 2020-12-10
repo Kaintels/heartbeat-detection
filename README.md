@@ -17,9 +17,20 @@ Feature selection is important for model design. we research costly feature sele
 
 ## Realtime-heartbeat detection
 
-**Prototype**
+**Program structure**
+
+![image](https://user-images.githubusercontent.com/38157496/101754340-fcb56e00-3b16-11eb-8a86-13edd155fc72.png)
+
+
+**Prototype (1)**
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/38157496/95651489-be56ff00-0b25-11eb-85c5-26036b03976d.gif)
+
+**Prototype (2)**
+
+![image](https://user-images.githubusercontent.com/38157496/101754056-a8aa8980-3b16-11eb-9776-9c5555aefba9.png)
+
+
 
 ## Good thing to see together
 
